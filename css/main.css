@@ -1,0 +1,22 @@
+/* 
+grey: #3C3744;
+blue: #090C9B;
+light-blue: #3066BE;
+gray-blue: #B4C5E4;
+ivory: #FBFFF1
+*/
+
+.main-loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #3C3744;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
