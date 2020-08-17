@@ -6,6 +6,7 @@ gray-blue: #B4C5E4;
 ivory: #FBFFF1
 */
 
+/* LOADER AND NAVIGATION */
 .main-loader {
     position: fixed;
     width: 100%;
@@ -14,9 +15,68 @@ ivory: #FBFFF1
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1040;
 }
 
 .spinner-border {
     width: 3rem;
     height: 3rem;
+}
+
+#menu .main-logo {
+    height: 70px;
+    border-radius: 45px;
+    margin-top: -5px;
+}
+
+#menu .nav-item a {
+    transition: 0.2s all;
+}
+
+#menu .nav-item a:hover {
+    color: #3066BE !important;
+}
+
+#menu .navbar-brand {
+    font-size: 1.5rem;
+    padding-top: 0;
+    transition: 0.2s all;
+}
+
+#menu .navbar-brand:hover {
+    color: #3066BE !important;
+}
+
+#menu #topMenu .navbar-brand {
+    font-size: 2rem;
+    padding-top: 0;
+}
+
+#menu button.navbar-toggler {
+    outline: none;
+}
+
+#menu .oi {
+    color: white;
+    font-size: 4rem;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+#menu .oi:hover {
+    color: #3066BE;
+}
+
+/* FULL PAGE HERO */
+#main-hero {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/main-hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-hero__box {
+    background: rgba(255,255,255,0.4);
 }
