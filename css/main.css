@@ -81,15 +81,25 @@
     background: rgba(255,255,255,0.4);
 }
 
-.section-title:after {
-    content: "";
-    position: absolute;
-    width: 46%;
-    left: 27%;
-    top: 85%;
-    border-bottom: 1px solid var(--grey);
+/* ABOUT SECTION */
+#about .business-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 15px;
+    float: left;
 }
 
+#about .business-card__info h5 {
+    margin: 0;
+}
+
+#about .business-card__info p {
+    color: var(--light-blue);
+    text-transform: uppercase;
+}
+
+/* WORKS SECTION */
 #works {
     background: #F6F6F6;
 }
