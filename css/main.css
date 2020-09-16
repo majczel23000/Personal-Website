@@ -99,6 +99,15 @@
     text-transform: uppercase;
 }
 
+#about .badge {
+    transition: 0.2s all;
+}
+
+#about .badge:hover {
+    cursor: pointer;
+    background: var(--light-blue);
+}
+
 /* WORKS SECTION */
 #works {
     background: #F6F6F6;

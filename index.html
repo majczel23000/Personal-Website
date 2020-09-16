@@ -27,19 +27,13 @@
             <a class="display-1 d-sm-none d-block navbar-brand m-0" href="#">Michał Raźny</a>
             <div class="collapse navbar-collapse" id="topMenu">
                 <ul class="navbar-nav justify-content-center w-100">
-                    <li class="nav-item mr-sm-2">
-                        <a class="nav-link text-white h5" href="#about">About</span></a>
+                    <li class="nav-item mr-sm-2 ml-sm-2">
+                        <a class="nav-link text-white h5" href="#about">About</a>
                     </li>
-                    <li class="nav-item pr-sm-5 mr-sm-5 ml-sm-2">
+                    <li class="nav-item mr-sm-2 ml-sm-2">
                         <a class="nav-link text-white h5" href="#works">My works</a>
                     </li>
-                    <li class="d-none d-sm-block nav-item position-absolute pr-4 pl-4 main-logo bg-dark">
-                        <a href="#"><span class="oi oi-code"></span></a>
-                    </li>
-                    <li class="nav-item pl-sm-5 ml-sm-5 mr-sm-2">
-                        <a class="nav-link text-white h5" href="#">News</span></a>
-                    </li>
-                    <li class="nav-item ml-sm-2">
+                    <li class="nav-item mr-sm-2 ml-sm-2">
                         <a class="nav-link text-white h5" href="#">Contact</a>
                     </li>
                 </ul>
@@ -131,7 +125,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-6 col-8 offset-2 offset-sm-0">
-                        <div class="card mb-5">
+                        <div class="card mb-5" data-toggle="modal" data-target="#modalCMS">
                             <img class="card-img-top" src="./img/portfolio_1.PNG" alt="Card image cap">
                             <div class="card-body p-3">
                                 <h6 class="card-text text-center">Engineering work - Headless CMS</h6>
@@ -182,6 +176,53 @@
                                 <span class="badge badge-secondary">PyQt5</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="fixed-bottom">
+            <ul class="d-flex justify-content-center w-25 float-right list-unstyled">
+                <li class="nav-item">
+                    <a class="nav-link text-white p-1" href="#" target="_blank">
+                        <img src="./img/github.png" alt="Github">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white p-1" href="https://www.facebook.com/michal.razny.2" target="_blank">
+                        <img src="./img/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white p-1" href="https://www.instagram.com/majczell/" target="_blank">
+                        <img src="./img/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white p-1" href="https://www.twitch.tv/majczel_jestem" target="_blank">
+                        <img src="./img/twitch.png" alt="Twitch">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- PORTFOLIO 1 CMS MODAL-->
+        <div class="modal fade" id="modalCMS" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">Engineering work - Headless CMS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="w-100" src="./img/portfolio_1.png" alt="">
+                    </div>
+                    <div class="modal-footer text-justify">
+                        Headless Content Management System that enables you to create such elements as: navigations,
+                        dictionaries, whole pages, faq sections and lot more. Project includes: user-friendly graphic interface,
+                        API for all elements created in CMS, documentation. Technologies: Angular, MongoDB, Node.js.
                     </div>
                 </div>
             </div>
